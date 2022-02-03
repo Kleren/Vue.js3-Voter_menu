@@ -24,17 +24,14 @@
                         </div>
                         <div class="card-body">
                             <template v-for="(submission, index) in sortedSubmissions" :key="submission.id">
-                             <!--verkürzte schreibweise :key nicht v-bind:key-->
+                               <!--verkürzte schreibweise :key nicht v-bind:key-->
                                 <submission-list-item
                                 :submission="submission"></submission-list-item>
                             <hr />
                             </template>
-
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
